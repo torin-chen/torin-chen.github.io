@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://torin-chen.github.io/sitemap.xml

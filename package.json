@@ -1,0 +1,10 @@
+{
+  "name": "tao-chen-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Personal academic website — Tao Chen (陈韬)",
+  "scripts": {
+    "dev": "python3 -m http.server 8080",
+    "deploy": "npx wrangler@latest pages deploy . --project-name tao-chen-website"
+  }
+}

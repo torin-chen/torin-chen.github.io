@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem("theme") ||
+          (window.matchMedia && matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+        document.documentElement.setAttribute("data-theme", t);
+      } catch (e) {}
+    })();
+  </script>
+  <title>Page not found — Tao Chen</title>
+  <meta name="robots" content="noindex" />
+  <meta name="theme-color" content="#faf9f5" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#1a1915" media="(prefers-color-scheme: dark)" />
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
+  <link rel="stylesheet" href="/assets/styles.css" />
+  <style>
+    .nf { min-height: 100vh; display: grid; place-items: center; text-align: center; padding: 24px; }
+    .nf h1 { font-family: var(--serif); font-size: clamp(3rem, 12vw, 6rem); font-weight: 500;
+      background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent; }
+    .nf p { color: var(--muted); margin: 8px 0 24px; }
+  </style>
+</head>
+<body>
+  <main class="nf">
+    <div>
+      <h1>404</h1>
+      <p>That page drifted out of thermal equilibrium. Let's get you back.</p>
+      <a class="btn btn--primary" href="/">Return home</a>
+    </div>
+  </main>
+</body>
+</html>

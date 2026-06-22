@@ -1,0 +1,24 @@
+# Cloudflare Pages — security + caching headers
+# https://developers.cloudflare.com/pages/configuration/headers/
+
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: SAMEORIGIN
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(), microphone=(), camera=()
+
+# Long-cache static media (filenames are stable). CSS/JS are left on the
+# Pages default so your tweaks show up quickly.
+/assets/Tao-CHEN-CV.pdf
+  Cache-Control: public, max-age=86400
+/assets/favicon.svg
+  Cache-Control: public, max-age=604800
+/assets/apple-touch-icon.png
+  Cache-Control: public, max-age=604800
+/assets/figs/*
+  Cache-Control: public, max-age=604800
+/assets/profile-360.webp
+  Cache-Control: public, max-age=604800
+# Fonts never change once shipped; if you ever swap them, rename the files.
+/assets/fonts/*
+  Cache-Control: public, max-age=31536000, immutable

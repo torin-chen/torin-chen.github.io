@@ -1,0 +1,187 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=1.9cm]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{fontawesome}
+\usepackage{microtype}
+
+% ---- Colors & links -------------------------------------------------------
+\definecolor{linkblue}{HTML}{286DC0}
+\hypersetup{colorlinks=true, urlcolor=linkblue, linkcolor=linkblue, citecolor=linkblue}
+
+% ---- Page setup -----------------------------------------------------------
+\pagenumbering{gobble}
+\setlength{\parindent}{0pt}
+
+% ---- Section headings: bold, rule underneath ------------------------------
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\vspace{-3pt}\titlerule]
+\titlespacing{\section}{0pt}{8pt}{5pt}
+
+% ---- Tight, consistent bullet lists ---------------------------------------
+\setlist[itemize]{leftmargin=1.4em, topsep=2pt, itemsep=1.5pt, parsep=0pt,
+                  label=\textbullet}
+
+% ---- Hanging-indent entry for publications / patents ----------------------
+% First line flush left (author names align at the margin); wrapped lines indent.
+\newcommand{\pubitem}[1]{\par\noindent\hangindent=1.6em\hangafter=1 #1\par\addvspace{3pt}}
+
+\begin{document}
+
+% ===== Header ==============================================================
+\begin{center}
+  {\huge\bfseries Tao Chen}\\[0.3em]
+  {\itshape\small Optical thermal metrology \ \textperiodcentered\ \ micro/nanoscale heat transport}\\[0.55em]
+  \faEnvelope\ \href{mailto:torin.chen@yale.edu}{torin.chen@yale.edu}
+  \quad\textbullet\quad
+  \faGraduationCap\ \href{https://scholar.google.com/citations?user=wLh8cHgAAAAJ&hl=en}{Google Scholar}
+\end{center}
+
+% ===== Education ===========================================================
+\section{Education}
+
+\textbf{M.Eng.\ in Energy and Power Engineering} \hfill 2023 -- 2026\\
+Huazhong University of Science and Technology \ \textbar\ \ Advisor: Prof.\ Puqing Jiang
+\begin{itemize}
+  \item Admitted ranked 1st in the entrance examination, with a perfect score in mathematics.
+  \item Thesis: Development and application of a thermal-property measurement technique based on the square-pulsed source (SPS) method.
+  \item Selected coursework: Theory and Engineering Applications of Heat Transfer; Advanced Applied Engineering Mathematics; Thermal Signal Processing and Visualization; Modern Instrumental Analysis Methods; Academic Writing.
+\end{itemize}
+
+\vspace{2pt}
+\textbf{B.Eng.\ in Energy and Power Engineering} \hfill 2019 -- 2023\\
+Huazhong University of Science and Technology
+\begin{itemize}
+  \item Thesis: Development and application of an infrared-based AC calorimetry system.
+  \item Selected coursework: Engineering Heat Transfer; Engineering Thermodynamics; Engineering Numerical Methods; Calculus; Linear Algebra; Probability and Statistics.
+\end{itemize}
+
+% ===== Research Interests ==================================================
+\section{Research Interests}
+\begin{itemize}
+  \item Optical thermal metrology (TDTR, FDTR, SDTR, and the square-pulsed source method) for micro/nanoscale heat transfer and non-equilibrium thermal transport.
+  \item Thermal characterization of thin films, interfaces, anisotropic and two-dimensional materials, liquids, and thermal interface materials.
+  \item Inverse problems, uncertainty quantification, and the interplay between heat transfer and applied mathematics.
+\end{itemize}
+
+% ===== Research Experience =================================================
+\section{Research Experience}
+
+\textbf{Optical Measurement of Multilayer-Film Thermal Properties in Chips} \hfill 2025 -- Present\\
+\textit{Huazhong University of Science and Technology (with an industry partner)}
+\begin{itemize}
+  \item Measure the thermal conductivity and volumetric heat capacity of each micron-thick layer in multilayer chip stacks.
+  \item Built the optical platform and an automated routine for spatial thermal-property mapping.
+\end{itemize}
+
+\vspace{2pt}
+\textbf{Near-Junction Thermal Transport in GaN Devices} \hfill 2024 -- Present\\
+\textit{Huazhong University of Science and Technology}
+\begin{itemize}
+  \item Developed the square-pulsed source (SPS) thermoreflectance method (see Publications).
+  \item Extending it to an ultraviolet square-pulse transient scheme for \emph{in situ}, near-junction measurements.
+  \item Quantifying how growth conditions set the thermal resistance of passivation layers and interfaces.
+\end{itemize}
+
+\vspace{2pt}
+\textbf{Micro/Nanoscale Thermal Characterization for 3D-Stacked Chips} \hfill 2024\\
+\textit{Huazhong University of Science and Technology (with an industry partner)}
+\begin{itemize}
+  \item Designed and built an optical micro/nanoscale thermal-characterization platform with $<$10\% measurement error and automated spatial mapping.
+  \item Linked micro/nanoscale structural features to thermal transport across real chip samples to inform 3D-stacked chip design.
+\end{itemize}
+
+% ===== Honors and Awards ===================================================
+\section{Honors and Awards}
+\begin{itemize}[label={}, leftmargin=0pt, itemsep=2.5pt]
+  \item National Graduate Scholarship, Ministry of Education of China (national) \hfill Dec 2025
+  \item First-Class Postgraduate Scholarship, Huazhong University of Science and Technology \hfill Dec 2025
+  \item National Graduate Scholarship, Ministry of Education of China (national) \hfill Dec 2024
+  \item First-Class Postgraduate Scholarship, Huazhong University of Science and Technology \hfill Dec 2024
+  \item Merit Student, Huazhong University of Science and Technology \hfill Dec 2024
+  \item Outstanding Conference Paper Award, 3rd Chinese Conference on Thermal Properties \hfill Jun 2024
+  \item Self-Reliance Scholarship, School of Energy and Power Engineering \hfill Feb 2020
+\end{itemize}
+
+% ===== Professional Service ================================================
+\section{Professional Service}
+Referee for \textit{Physical Review Letters}, \textit{Physical Review Applied}, and \textit{Physical Review Materials}.
+
+% ===== Journal Articles ====================================================
+\section{Journal Articles}
+
+\pubitem{\textbf{Chen, T.}, Xiao, B., Qian, X., \& Jiang, P. (2026). Simultaneous measurement of pressure-dependent bulk and interfacial thermal properties in thermal interface materials using square-pulsed source thermoreflectance. \textit{Applied Thermal Engineering} (under review). arXiv:2603.22733.}
+
+\pubitem{\textbf{Chen, T.}, Wang, D., \& Jiang, P. (2026). Physics-derived natural coordinates for fast uncertainty propagation in multilayer thermoreflectance. \textit{International Journal of Heat and Mass Transfer} (under review).}
+
+\pubitem{\textbf{Chen, T.}, \& Jiang, P. (2025). Weak coupling of diffusional and phonon-like modes in liquids revealed by dynamic Kapitza length. \textit{Physical Review Letters} (under revision).}
+
+\pubitem{Shen, Y., \textbf{Chen, T.}, Song, S., Zhang, K., Chen, Y., Zhao, L., \& Jiang, P. (2026). Mechanistic insight into BEOL thermal transport via optical metrology and multiphysics simulation. \textit{International Communications in Heat and Mass Transfer}, 111751.}
+
+\pubitem{\textbf{Chen, T.}, \& Jiang, P. (2025). Universal thermometry of solid--liquid interfacial thermal conductance. \textit{Applied Physics Letters}, 127, 191608. [Featured Article]}
+
+\pubitem{Bao, Y., \textbf{Chen, T.}, Miao, Z., Zheng, W., Jiang, P., Chen, K., Guo, R., \& Xue, D. (2025). Machine-learning-assisted understanding of depth-dependent thermal conductivity in lithium niobate induced by point defects. \textit{Advanced Electronic Materials}, 11(11), 2400944.}
+
+\pubitem{Xiao, B., \textbf{Chen, T.}, Zhang, W., Qian, X., \& Jiang, P. (2025). Fast and reliable thermal property extraction from FDTR measurements via hybrid particle swarm optimization. \textit{International Journal of Heat and Mass Transfer}, 256, 128109.}
+
+\pubitem{\textbf{Chen, T.}, \& Jiang, P. (2025). Simultaneous, non-contact measurement of liquid and interfacial thermal properties via a differential square-pulsed source method. \textit{Langmuir}, 41(38), 26496--26504.}
+
+\pubitem{Zhang, K., \textbf{Chen, T.}, Ma, J., \& Jiang, P. (2025). A variable-spot-size and multi-frequency square-pulsed source (SPS) approach for comprehensive characterization of anisotropic thermal transport properties in multilayered thin films. \textit{Journal of Physics D: Applied Physics}, 58(32), 325302.}
+
+\pubitem{Zhang, M., \textbf{Chen, T.}, Song, S., Bao, Y., Guo, R., Zheng, W., Jiang, P., \& Yang, R. (2025). Extending the low-frequency limit of time-domain thermoreflectance via periodic waveform analysis. \textit{Journal of Applied Physics}, 138(5), 055101.}
+
+\pubitem{\textbf{Chen, T.}, \& Jiang, P. (2025). A measurement method for the thermal conductivity and specific heat of submillimeter-sized low-thermal-conductivity materials. \textit{Journal of Huazhong University of Science and Technology (Natural Science Edition)}, 53(7), 88--93.}
+
+\pubitem{\textbf{Chen, T.}, \& Jiang, P. (2025). Decoupling thermal properties in multilayered systems for advanced thermoreflectance experiments. \textit{Physical Review Applied}, 23(4), 044004.}
+
+\pubitem{Zhang, M., \textbf{Chen, T.}, Zeng, A., Tang, J., Guo, R., \& Jiang, P. (2025). Simultaneous measurement of thermal conductivity, heat capacity, and interfacial thermal conductance by leveraging negative delay-time data in time-domain thermoreflectance. \textit{Progress in Natural Science: Materials International}, 35(2), 375--384.}
+
+\pubitem{Song, S., \textbf{Chen, T.}, \& Jiang, P. (2025). Comprehensive thermal property measurement of semiconductor heterostructures using the square-pulsed source (SPS) method. \textit{Journal of Applied Physics}, 137(5), 055101.}
+
+\pubitem{\textbf{Chen, T.}, \& Jiang, P. (2025). An optical method for measuring local convective heat transfer coefficients over $100\,\mathrm{W/(m^2{\cdot}K)}$ with sub-millimeter resolution. \textit{Measurement}, 249, 117001.}
+
+\pubitem{\textbf{Chen, T.}, \& Jiang, P. (2024). Unraveling the intrinsic relationship of thermal properties in thermoreflectance experiments. \textit{Acta Physica Sinica}, 73(23), 230202. [Cover Article]}
+
+\pubitem{\textbf{Chen, T.}, Song, S., Hu, R., \& Jiang, P. (2024). Comprehensive measurement of the three-dimensional thermal conductivity tensor using a beam-offset square-pulsed source (BO-SPS) approach. \textit{International Journal of Thermal Sciences}, 207, 109347.}
+
+\pubitem{\textbf{Chen, T.}, Song, S., Shen, Y., Zhang, K., \& Jiang, P. (2024). Simultaneous measurement of thermal conductivity and heat capacity across diverse materials using the square-pulsed source (SPS) technique. \textit{International Communications in Heat and Mass Transfer}, 158, 107849.}
+
+% ===== Conference Presentations ===========================================
+\section{Conference Presentations}
+
+\pubitem{\textbf{Chen, T.}, \& Jiang, P. (2025, Oct.). Pressure-dependent thermal properties of thermal interface materials [oral presentation]. 9th Workshop on Thermal Transport (WTT 2025), China.}
+
+\pubitem{\textbf{Chen, T.}, Hu, Z., \& Jiang, P. (2024, Dec.). Measurement of the three-dimensional anisotropic thermal conductivity tensor of micro-sized samples using the beam-offset square-pulsed source (BO-SPS) method; and Accurate measurement of the local intrinsic convective heat transfer coefficient using the square-pulsed source (SPS) method [two oral presentations]. Annual Conference on Heat and Mass Transfer, Chinese Society of Engineering Thermophysics, China.}
+
+\pubitem{\textbf{Chen, T.}, \& Jiang, P. (2024, Sep.). Revealing the intrinsic relationship of thermal-property parameters in thermoreflectance experiments [oral presentation]. 3rd Chinese Conference on Thermal Properties, China. \textit{(Outstanding Conference Paper Award)}}
+
+\pubitem{\textbf{Chen, T.}, Song, S., \& Jiang, P. (2024, Jun.). Advancing thermal characterization: simultaneous micrometer-scale measurement of thermal conductivity and heat capacity in low-conductivity materials using the square-pulsed source (SPS) technique [oral presentation]. 3rd Asian Conference on Thermal Sciences (ACTS 2024), Shanghai, China.}
+
+% ===== Patents =============================================================
+\section{Patents}
+
+\pubitem{Jiang, P., \& \textbf{Chen, T.} (2025). Method and system for measuring the local convective heat transfer coefficient. Patent No.\ ZL 2024 1 0763998.4.}
+
+\pubitem{Jiang, P., \textbf{Chen, T.}, \& Xiao, B. (2025). System and method for measuring the thermal properties of soft-matter thin films. Patent Application No.\ 2025109077810.}
+
+\pubitem{Jiang, P., Yang, R., Song, S., \textbf{Chen, T.}, \& Wu, J. (2024). Method and system for measuring the anisotropic thermal properties of sub-millimeter-scale samples. Patent No.\ ZL 2024 1 0057927.2.}
+
+% ===== Industry Experience ================================================
+\section{Industry Experience}
+\textbf{Engineering Intern}, Sichuan Air Separation Equipment (Group) Co., Ltd., Chengdu, China \hfill 2022
+\begin{itemize}
+  \item Studied the design and manufacture of cryogenic equipment (pressure vessels, compressors, heat exchangers) and the thermodynamics of air-separation units.
+  \item Authored a technical report summarizing key engineering findings.
+\end{itemize}
+
+% ===== Skills ==============================================================
+\section{Skills}
+\textbf{Experimental:} Design, build, and calibrate optical thermal-metrology systems; TDTR, FDTR, SDTR, and SPS measurements.\\[2pt]
+\textbf{Computational:} MATLAB, Python, COMSOL, Origin, \LaTeX, SolidWorks; modeling, inverse fitting, and uncertainty analysis.\\[2pt]
+\textbf{Languages:} English (proficient), Mandarin (native).
+
+\end{document}
