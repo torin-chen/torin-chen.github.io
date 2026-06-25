@@ -37,6 +37,7 @@
 
       "news.title": "News",
       "news.yale": "I will join <strong>Yale University</strong> as a PhD student in Fall 2026.",
+      "news.grad": "Named an Outstanding Graduate; my master's thesis was recognized as an Outstanding Graduate Thesis.",
       "news.offers": "Received PhD offers with full fellowships from Yale, Princeton, the University of Chicago, Cornell, and others.",
       "news.nat25": "Awarded the National Graduate Scholarship.",
       "news.nat24": "Awarded the National Graduate Scholarship.",
@@ -105,6 +106,7 @@
       "edu.msc.note": "Advisor: Prof. Puqing Jiang",
       "edu.bsc.deg": "B.Eng., Energy &amp; Power Engineering", "edu.bsc.org": "Huazhong University of Science and Technology",
       "honor.nat25": "<strong>National Graduate Scholarship</strong>, Ministry of Education, China",
+      "honor.grad": "Outstanding Graduate; Outstanding Graduate Thesis",
       "honor.nat24": "<strong>National Graduate Scholarship</strong>, Ministry of Education, China",
       "honor.merit": "Merit Student, HUST",
       "honor.award": "Outstanding Conference Paper Award, 3rd Chinese Conference on Thermal Properties",
@@ -113,7 +115,7 @@
 
       "a11y.skip": "Skip to content",
       "a11y.theme": "Toggle dark mode",
-      "footer.updated": "Last updated June 22, 2026",
+      "footer.updated": "Last updated June 25, 2026",
 
       "_title": "Tao Chen — Optical Thermal Metrology · Yale University",
       "_desc": "Tao Chen (陈韬) — incoming PhD student at Yale University, advised by Prof. Peijun Guo. Optical pump–probe thermoreflectance metrology for micro/nanoscale thermal transport."
@@ -128,6 +130,7 @@
 
       "news.title": "动态",
       "news.yale": "将于 2026 年秋入学<strong>耶鲁大学</strong>攻读博士。",
+      "news.grad": "获评优秀毕业生，学位论文获评优秀毕业论文。",
       "news.offers": "收到耶鲁、普林斯顿、芝加哥大学、康奈尔等高校的博士全额奖学金 offer。",
       "news.nat25": "获研究生国家奖学金。",
       "news.nat24": "获研究生国家奖学金。",
@@ -196,6 +199,7 @@
       "edu.msc.note": "导师：江普庆 教授",
       "edu.bsc.deg": "工程学士 · 能源与动力工程", "edu.bsc.org": "华中科技大学",
       "honor.nat25": "<strong>研究生国家奖学金</strong>（教育部，国家级）",
+      "honor.grad": "优秀毕业生；优秀毕业论文",
       "honor.nat24": "<strong>研究生国家奖学金</strong>（教育部，国家级）",
       "honor.merit": "三好学生（华中科技大学）",
       "honor.award": "优秀会议论文奖（第三届中国热物性大会）",
@@ -204,7 +208,7 @@
 
       "a11y.skip": "跳到正文",
       "a11y.theme": "切换深浅色模式",
-      "footer.updated": "最后更新于 2026 年 6 月 22 日",
+      "footer.updated": "最后更新于 2026 年 6 月 25 日",
 
       "_title": "陈韬 — 光学热测量 · 耶鲁大学",
       "_desc": "陈韬（Tao Chen）— 耶鲁大学准博士生，导师 Peijun Guo 教授。光学泵浦-探测热反射技术，研究微纳尺度热输运机制与热物性测量。"
